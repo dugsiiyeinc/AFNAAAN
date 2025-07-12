@@ -17,6 +17,30 @@ body{
     max-width: 1120px;
     margin-inline:auto;
 }
+.about-heading{
+    background-image: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/heading-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 215px 0px 120px 0px;
+    text-align: center;
+}
+.about-heading .container{
+    display: flex;
+    flex-direction: column;
+}
+.about-heading .container h2{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+}
+.about-heading .container .line{
+    width: 80px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 20px auto 
+}
 
 .about-container{
     display: grid;
