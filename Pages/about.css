@@ -36,7 +36,7 @@ body{
     box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.1); 
     /* box-shadow: 0 0 10px rgb(139, 108, 108); */
 }
-.provided-services .service-1{
+.provided-services .service{
     
     border-bottom: 1px solid rgb(238, 238, 238);
 }
@@ -45,6 +45,9 @@ body{
 .about-container .provided-services .Service-title{
     display: flex;
     justify-content: space-between;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 35px 0px !important;
 }
 .Service-title span:nth-child(1){
     font-size: 19.2px;
@@ -60,7 +63,7 @@ body{
     line-height: 28.8px;
 }
 
-p{
+.service p{
    font-size: 15px;
    line-height: 26px;
     color: rgb(33, 39, 65);
