@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+      font-family: "Poppins", sans-serif;
+
+
+}
+
+
+.container{
+    max-width: 1120px;
+    margin-inline:auto;
+}
+.services-heading{
+    background-image: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/heading-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 215px 0px 120px 0px;
+    text-align: center;
+}
+.services-heading .container{
+    display: flex;
+    flex-direction: column;
+}
+.services-heading .container h2{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 700;
+}
+.services-heading .container .line{
+    width: 80px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 20px auto 
+}
