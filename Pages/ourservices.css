@@ -165,5 +165,112 @@ body{
     transition: 0.3s;
     text-decoration: none;
 }
+/* Service Deatils section style */
+.service-details{
+    margin-top: 120px;
+}
+.service-details .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* service heading style */
+.service-details .container .service-heading{
+    position: relative;
+    z-index: 2;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.service-details .container .service-heading h6{
+    
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ff511a;
+    font-weight: 700;
 
+}
 
+.service-details .container .service-heading h4{
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #212741;
+
+}
+/* service tabs and content style */
+.service-tabs-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 15%;
+}
+/* service tabs style */
+.service-tabs{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.service-tabs span{
+    padding: 15px 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px !important;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #212741;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    font-weight: 600;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* service details content style */
+.service-details-content{
+    display: flex;
+    gap: 40px;
+    border-radius: 1px solid rgb(225, 35, 35);
+}
+.service-details-content img{
+    width: 100%;
+    margin-right: 50px;
+}
+
+.service-right-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px 20px 20px 0;
+
+    
+
+}
+.service-right-content h4{
+    font-size: 24px;
+    color: #212741;
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-right: 50px;
+}
+.service-right-content p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height:26px;
+    color: #212741;
+    
+}
+.service-right-content span {
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #212741;
+    font-style: italic;
+    margin-bottom: 12px;
+    line-height: 25px;
+    
+}
