@@ -233,11 +233,18 @@ body{
 .service-details-content{
     display: flex;
     gap: 40px;
-    border-radius: 1px solid rgb(225, 35, 35);
+    border:0.5px solid white;
+     padding: 20px 30px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    
+    
 }
 .service-details-content img{
     width: 100%;
     margin-right: 50px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .service-right-content{
