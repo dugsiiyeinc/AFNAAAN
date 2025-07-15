@@ -115,3 +115,83 @@ body{
     text-decoration: none;
 
 }
+/* contact us section style */
+.contact-us-section{
+    margin-top: 120px;
+}
+.contact-us-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* contact us heading style */
+.contact-us-section .container .contact-us-heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-us-section .container .contact-us-heading h6{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ff511a;
+    font-weight: 700;
+
+}
+.contact-us-section .container .contact-us-heading h4{
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #212741
+}
+/* contact us section cantact form style */
+.contact-us-section .container .contact-us-form form .form-inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px; 
+    
+}
+/* form inputs style */
+.contact-us-section .container .contact-us-form input{
+    width: 100%;
+    height: 50px;
+    background-color: #f7f7f7;
+    color: #212741;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 30px;
+    
+}
+/* text area style */
+.contact-us-section .container .contact-us-form form textarea{
+    width: 100%;
+    height: 180px;
+    max-height: 24px;
+    min-height: 150px;
+    background-color: #f7f7f7;
+    color: #212741;
+    border-radius: 5px;
+    border: none;
+    padding: 15px 15px;
+    font-size: 14px;
+    margin-bottom: 30px;
+
+}  
+/* form submit button style */
+.contact-us-section .container .contact-us-form form button{
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff511a;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    border: none;
+    
+
+}
