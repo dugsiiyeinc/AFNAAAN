@@ -284,6 +284,16 @@ body{
 
 /* Responsive Design For Mobiles and Tablets */
 @media(max-width:768px){
+    .services-heading{
+    min-width: 750px;
+    
+   }
+
+    .services-heading-container{
+        grid-template-columns: 1fr;
+        min-width: 750px;
+        
+    }
     /* main service responsive style */
     .main-services .container .service-item{
     display: flex;
@@ -410,8 +420,9 @@ body{
 .service-right-content span {
 
     font-size:30px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 40px;
+    text-align: center;
     
 }
 
