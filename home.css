@@ -445,6 +445,7 @@ td {
 /* calculator section style */
 .calculator{
    margin-top: 120px;
+ 
     background-image: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/calculator-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -525,6 +526,7 @@ button:hover {
 /* testimonials section style */
 
 .testimonial-section {
+margin-bottom: 300px;
   padding: 80px 20px;
   text-align: center;
 }
@@ -590,4 +592,64 @@ button:hover {
   width: 180px;
   height: auto;
   border-radius: 10px;
+}
+
+/* partners section style */
+
+.our-partners{
+   margin-bottom: 20px;
+    background-color: #212741;
+    padding: 100px 0px;
+    /*  */
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    
+}
+ .our-partners .container{
+   max-width: 1120px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+   
+
+}
+
+.container .item img{
+   width: 100%;
+   margin: 0px 15px;
+   cursor: pointer;
+
+}
+/* footer section style */
+
+footer{
+    background-color: #181d30;
+    text-align: center;
+    padding: 25px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* margin-top: 1000px; */
+}
+footer .container{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+footer p{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+
+}
+footer p a{
+    text-decoration: none;
+    color: #ff511a;
 }
