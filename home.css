@@ -325,6 +325,7 @@ flex-direction: column;
 .about-us {
   max-width: 1200px;
   margin: auto;
+  margin-top: 120px;
 }
 
 .subtitle {
@@ -429,4 +430,85 @@ td {
 
 .discover-btn:hover {
   background-color: #219c75;
+}
+
+/* calculator section style */
+.calculator{
+   margin-top: 120px;
+    background-image: url("https://templatemo.com/templates/templatemo_574_mexant/assets/images/calculator-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0px;
+  
+}
+
+.calculator .container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 30px;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+.form-box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.subtitle {
+  color: #f97316;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+.input-row input,
+form input,
+form select {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form select {
+  background: #e2e8f0;
+}
+
+button {
+  background-color: #f97316;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ea580c;
 }
