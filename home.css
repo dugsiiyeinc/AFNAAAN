@@ -21,7 +21,9 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  /* display: flex; */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
   
 }
 .desktop{
@@ -71,19 +73,7 @@ a:hover{
     background-color: #218838;
     color: #ffffff;
 }
-/* .btn{
-     background-color: #43ba80;
-     font-size: 1rem;
-     border: 1px solid #f9f9f9;
-    color: white;
-    text-transform: uppercase;
-    border-radius: 7px;
-    padding: 10px;
-} */ 
-/* 
 
-
-  */
   /* test menu */
 .menu {
   list-style: none;
@@ -97,9 +87,7 @@ a:hover{
 }
 
 .menu > li > a {
-  /* padding: 10px 15px;
-  display: block; */
-  /* background: #5f6ad4; */
+
   color: white;
   text-decoration: none;
 }
@@ -491,6 +479,50 @@ td {
   background-color: #219c75;
 }
 
+/* services section style */
+.services-container{
+  margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    height: 100%;
+}
+
+.service-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+     border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.services-container .service-box i{
+    font-size: 64px;
+    color: #43ba7f;
+    margin-bottom: 30px;
+}
+
+
+.services-container .service-box .service-infor{
+
+display: flex;
+flex-direction: column;
+       
+}
+
+.services-container .service-box .service-infor h4{
+     font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+ .services-container .service-box .service-infor p{
+    font-size: 15px;
+    line-height: 26px;
+    color: #212741;
+}
 /* calculator section style */
 .calculator{
    margin-top: 120px;
@@ -575,7 +607,8 @@ button:hover {
 /* testimonials section style */
 
 .testimonial-section {
-margin-bottom: 300px;
+/* margin-bottom: 300px; */
+margin-top: 90px;
   padding: 80px 20px;
   text-align: center;
 }
@@ -646,14 +679,14 @@ margin-bottom: 300px;
 /* partners section style */
 
 .our-partners{
-   margin-bottom: 20px;
+   margin-top: 120px;
     background-color: #212741;
     padding: 100px 0px;
     /*  */
-    position: fixed;
+    /* position: fixed;
     bottom:0;
     left: 0;
-    width: 100%;
+    width: 100%; */
     
 }
  .our-partners .container{
@@ -678,10 +711,10 @@ footer{
     background-color: #181d30;
     text-align: center;
     padding: 25px 0px;
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100%; */
     /* margin-top: 1000px; */
 }
 footer .container{
