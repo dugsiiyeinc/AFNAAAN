@@ -345,6 +345,25 @@ footer p a{
 /* Responsive Design of contact us page */
 @media (max-width:768px){
     
+    /* infor-boxes Responive style */
+.maps .container .info-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    margin-top: 600px;
+    margin-left: 50px;
+    width: 90%;
+    
+
+}
+/* contact us section cantact form  Responsive style */
+.contact-us-section .container .contact-us-form form .form-inputs{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px; 
+    
+}
+/* our partners section Responsive */
 .our-partners{
    margin-top: 30px;
     background-color: #212741;
