@@ -7,13 +7,17 @@
 
 ## 🚀 Features
  🔹 Responsive design for all devices 
+ 
  🔹 Project showcase with descriptions and links
+ 
  🔹 Contact form with email integration 
+ 
  🔹 About section with personal introduction 
+ 
 
   🛠 Technologies Used
-   ✅ HTML5  
-   ✅ CSS3 / Tailwind CSS  
+   ✅ HTML5
+   ✅ CSS3
 
 
 
