@@ -427,9 +427,117 @@ footer p a{
     text-decoration: none;
     color: #ff511a;
 }
-
+.mobile_nav{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
 /* Responsive Design For Mobiles and Tablets */
 @media(max-width:768px){
+     /* Haburger style */
+    .hamburger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 20%;
+        right: 10%;
+        margin-top: 2rem;
+        background-color: #5f6ad4;
+        color: white;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 1.25rem;
+    
+    }
+    header{
+      height: 0;
+    }
+
+  .container .main-nav{
+    display: none;
+  }
+ 
+    .hamburger i[data-visible="true"]{
+        display: block;
+    }
+
+    .hamburger i[data-visible="false"]{
+        display: none;
+    }
+    .mobile_nav{
+        display: flex;
+        flex-direction: column;
+         background-color: rgb(45, 8, 8);
+        gap: 10px; 
+         position: fixed;
+         top: 10;
+         left: 0;
+         width: 100%;
+       height: auto;
+       
+    } 
+    .mobile_nav .logo-img{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-left: 10px;
+   
+
+
+    }
+    
+    .mobile_nav .nav-links{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+      align-items: center; 
+        gap: 10px;
+        list-style: none;
+        
+    }
+    .mobile_nav .nav-links li a{
+    
+        font-size: 20px;
+        text-transform:capitalize;
+        text-decoration: none;
+        /*  */
+        height: 50px !important;
+        line-height: 50px;
+        color: #232d39 ;
+        width: 100%;
+
+    }
+       /* sub-menu mobile design */
+.submenu {
+  display: none;
+  position: absolute;
+  /* background: #333; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 150px;
+  z-index: 1000;
+background-color: white;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+    
+
     .services-heading{
     max-width: 400px;
     

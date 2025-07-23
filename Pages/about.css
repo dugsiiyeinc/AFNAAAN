@@ -407,6 +407,9 @@ footer p a{
 .mobile_nav{
     display: none;
 }
+.hamburger{
+    display: none;
+}
 
 /* RESPONSIVE DESIGN OF THE ABOUT PAGE*/
 @media(max-width:768px){

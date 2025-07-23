@@ -345,6 +345,9 @@ footer p a{
 .mobile_nav{
     display: none;
 }
+.hamburger{
+    display: none;
+}
 /* Responsive Design of contact us page */
 @media (max-width:768px){
      
