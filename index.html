@@ -39,7 +39,7 @@
 </nav>
 </div>
 <!-- Mobile-menu -->
-  <nav class="mobile-nav">
+  <nav class="mobile_nav">
   <!-- ***** Logo start ***** -->
  <div class="logo-img">
     <a href="index.html" class="logo">
@@ -308,7 +308,29 @@
             </div>
         </div>
   </footer>
+  <!-- script -->
+   <script>
+        const hamburger = document.querySelector('.hamburger');
+        const mobilemenue = document.querySelector(".mobile_nav");
+        const icons = document.querySelectorAll("i");
 
+        hamburger.addEventListener("click", function (event) {
+            const isVisible = mobile_nav.getAttribute('data-visible');
+            if (isVisible == "true") {
+                // qari hiding
+                mobilemenue.setAttribute('data-visible', "false");
+                icons[0].setAttribute('data-visible', "true");
+                icons[1].setAttribute('data-visible', "false");
+            } else if (isVisible == "false") {
+                // soo bandhig showing
+                mobilemenue.setAttribute('data-visible', "true");
+                icons[0].setAttribute('data-visible', "false");
+                icons[1].setAttribute('data-visible', "true");
+            }
+        });
+
+
+    </script>
     
 </body>
 </html>
