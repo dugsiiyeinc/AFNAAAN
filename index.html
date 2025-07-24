@@ -39,35 +39,33 @@
                     
 </nav>
 </div>
-<!-- Mobile-menu -->
-  <nav class="mobile_nav">
-  <!-- ***** Logo start ***** -->
- <div class="logo-img">
+<!-- Mobile-menu -->   
+  <nav class="mobile-nav" data-visible="false">
+  <div class="logo-img">
     <a href="index.html" class="logo">
-    <img src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/logo.png" alt="logo-img"></a>
- </div>
+      <img src="https://templatemo.com/templates/templatemo_574_mexant/assets/images/logo.png" alt="logo-img">
+    </a>
+  </div>
   <ul class="nav-links">
-   <li><a href="#Home">Home</a></li>
-   <li><a href="#Services">Services</a></li>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Services">Services</a></li>
     <li><a href="#About">About</a></li>
-   <ul class="menu">
-  <li class="dropdown">
-    <a href="#">Pages ▾</a>
-    <ul class="submenu">
-      <li><a href="./Pages/about.html">About Us</a></li>
-      <li><a href="./Pages/ourservices.html">Contact Us</a></li>
-      <li><a href="./Pages/contactus.html">Our Services</a></li>
-    </ul>
-  </li>
-</ul>
+    <li class="dropdown">
+      <a href="#">Pages ▾</a>
+      <ul class="submenu">
+        <li><a href="./Pages/about.html">About Us</a></li>
+        <li><a href="./Pages/ourservices.html">Contact Us</a></li>
+        <li><a href="./Pages/contactus.html">Our Services</a></li>
+      </ul>
+    </li>
     <li><a href="#testimonials">Testimonials</a></li>
-    </ul>
- 
+  </ul>
 </nav>
- <div class="hamburger">
-             <i class="fa-solid fa-bars" data-visible="true"></i> 
-            <i class="fa-solid fa-close" data-visible="false"></i>
-        </div>
+
+<div class="hamburger">
+  <i class="fa-solid fa-bars" data-visible="true"></i> 
+  <i class="fa-solid fa-close" data-visible="false"></i>
+</div>
 
 
 
@@ -95,9 +93,8 @@
                 </p>
             </div>
         </div>
-        <!-- html webpage service -->
-         
-        <!-- Responisive Designs -->
+
+       
          <div class="service-box">
             <i class="fas fa-cloud"></i>
             <div class="service-infor">
@@ -310,28 +307,22 @@
         </div>
   </footer>
   <!-- script -->
-   <script>
-        const hamburger = document.querySelector('.hamburger');
-        const mobilemenue = document.querySelector(".mobile_nav");
-        const icons = document.querySelectorAll("i");
+    <script>
+      const hamburger = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-nav');
+const icons = document.querySelectorAll('.hamburger i');
 
-        hamburger.addEventListener("click", function (event) {
-            const isVisible = mobile_nav.getAttribute('data-visible');
-            if (isVisible == "true") {
-                // qari hiding
-                mobilemenue.setAttribute('data-visible', "false");
-                icons[0].setAttribute('data-visible', "true");
-                icons[1].setAttribute('data-visible', "false");
-            } else if (isVisible == "false") {
-                // soo bandhig showing
-                mobilemenue.setAttribute('data-visible', "true");
-                icons[0].setAttribute('data-visible', "false");
-                icons[1].setAttribute('data-visible', "true");
-            }
-        });
+hamburger.addEventListener('click', () => {
+  const isVisible = mobileMenu.getAttribute('data-visible') === 'true';
 
+  // Toggle nav visibility
+  mobileMenu.setAttribute('data-visible', !isVisible);
 
-    </script>
-    
+  // Toggle icon visibility
+  icons[0].setAttribute('data-visible', isVisible ? 'true' : 'false');  // bars
+  icons[1].setAttribute('data-visible', isVisible ? 'false' : 'true'); // close
+});
+
+</script>
 </body>
 </html>
