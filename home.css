@@ -877,11 +877,7 @@ background-color: white;
     background-color: #212741;
     padding: 100px 0px;
     max-width: 400px;
-     /* position: fixed;
-   bottom: 0;
-   left: 0; */
- /* margin-bottom: 120px; */
-   /* height:500px; */
+     
    
     
     
@@ -902,11 +898,7 @@ footer{
     text-align: center;
     padding: 25px 0px;
     max-width: 400px;
-    /* position:sticky;
-    bottom: 0;
-    left: 0;
-   margin-bottom: 0; */
-   /* width: 100%; */
+  
   
 }
 footer .container{
