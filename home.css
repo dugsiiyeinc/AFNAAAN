@@ -648,6 +648,9 @@ footer p a{
 .mobile-nav{
   display: none;
 }
+.hamburger{
+    display: none;
+}
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
